@@ -9,7 +9,7 @@ IMG_SIZE = (96, 96)
 BATCH_SIZE = 8
 EPOCHS = 3
 
-base_path = r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\to do\mri"
+base_path = r"mri"
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
     base_path + r"\train", validation_split=0.2, subset="training", seed=123,
